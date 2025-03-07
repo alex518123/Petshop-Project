@@ -3,6 +3,7 @@ import royal from '../../../public/royal.png'
 import primier from '../../../public/primier.png'
 import whiskas from '../../../public/whiskas.png'
 import natural from '../../../public/natural.png'
+import pedigree from '../../../public/pedigree.png'
 import Image from 'next/image'
 import { FacebookLogo, InstagramLogo, YoutubeLogo } from '@phosphor-icons/react/dist/ssr'
 
@@ -12,7 +13,7 @@ const brands = [
   { name: "Primier", logo: primier },
   { name: "Formula Natural", logo: natural },
   { name: "Whiskas", logo: whiskas },
-  { name: "Golden", logo: golden },
+  { name: "Pedigree", logo: pedigree },
 ]
 
 export function Footer() {
