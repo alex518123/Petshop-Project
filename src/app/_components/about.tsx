@@ -44,10 +44,12 @@ export function About() {
             <h2 className="text-4xl font-bold">SOBRE</h2>
 
             <p>
-            "Até que se tenha amado um animal, uma parte da alma permanece adormecida."
-            Acreditamos no poder transformador do amor pelos animais e no impacto positivo que ele pode trazer para nossas vidas. Em nossa jornada, buscamos oferecer mais do que apenas cuidados veterinários — buscamos proporcionar uma experiência completa de bem-estar para o seu pet, com um atendimento ágil, eficaz e cheio de carinho.
+              <span className="block italic">
+                "Até que se tenha amado um animal, uma parte da alma permanece adormecida."
+              </span>
+              Acreditamos no poder transformador do amor pelos animais e no impacto positivo que ele pode trazer para nossas vidas. Em nossa jornada, buscamos oferecer mais do que apenas cuidados veterinários — buscamos proporcionar uma experiência completa de bem-estar para o seu pet, com um atendimento ágil, eficaz e cheio de carinho.
 
-            Na nossa clínica, você encontra um espaço acolhedor, onde qualidade, confiança e segurança são prioridades. Nossa missão é garantir que cada animal seja tratado com a atenção e o respeito que merece, enquanto cuidamos de sua saúde física e emocional.
+              Na nossa clínica, você encontra um espaço acolhedor, onde qualidade, confiança e segurança são prioridades. Nossa missão é garantir que cada animal seja tratado com a atenção e o respeito que merece, enquanto cuidamos de sua saúde física e emocional.
             </p>
 
             <ul className="space-y-4">

@@ -31,7 +31,7 @@ export function Footer() {
 
           <div className="grid grid-cols-2 lg:grid-cols-6 gap-8">
             {brands.map((item, index) => (
-              <div key={index} className='bg-white p-4 rounded-lg flex items-center justify-center transition-transform transform hover:scale-110'>
+              <div key={index} className='bg-white p-4 rounded-lg flex items-center justify-center transition-transform transform hover:scale-110 will-change-transform'>
                 <Image
                   src={item.logo}
                   alt={item.name}
