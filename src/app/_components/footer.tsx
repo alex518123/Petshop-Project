@@ -31,7 +31,7 @@ export function Footer() {
 
           <div className="grid grid-cols-2 lg:grid-cols-6 gap-8">
             {brands.map((item, index) => (
-              <div key={index} className='bg-white p-4 rounded-lg flex items-center justify-center'>
+              <div key={index} className='bg-white p-4 rounded-lg flex items-center justify-center transition-transform transform hover:scale-110'>
                 <Image
                   src={item.logo}
                   alt={item.name}
@@ -66,8 +66,8 @@ export function Footer() {
 
           <div>
             <h3 className='text-2xl font-semibold mb-2'>Contatos</h3>
-            <p>Email: meuemail@gmail.com</p>
-            <p>Telefone: (XX) 1231831238</p>
+            <p>Email: neo@hacktheplanet.com</p>
+            <p>Telefone: (555) 343-0911</p>
             <p>221B Baker Street | Londres</p>
           </div>
 
