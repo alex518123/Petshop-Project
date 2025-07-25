@@ -24,7 +24,7 @@ export function Footer() {
   const youtubeUrl = "https://www.youtube.com";
 
   return (
-    <section className="bg-[#E84c3d] py-16 text-white">
+    <section className="bg-[#4682b4] py-16 text-white">
       <div className='container mx-auto px-4'>
 
         <div className='border-b border-white/20 pb-8'>
