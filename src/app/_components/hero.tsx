@@ -8,7 +8,7 @@ export function Hero() {
   const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER;
   
   return (
-    <section className="bg-[#E84C3D] text-white relative overflow-hidden">
+    <section className="bg-[#4682b4] text-white relative overflow-hidden">
 
       <div>
         <Image
